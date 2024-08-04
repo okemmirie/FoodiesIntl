@@ -1,0 +1,274 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f0f0f0;
+  color: #333;
+}
+       
+.content-container {
+            padding: 0 60px; /* Adjust the padding as needed */
+        }
+
+header {
+  background: #003366;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  margin: .5;
+}
+
+nav {
+  background: #004080;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav button {
+  background: #0066cc;
+  border: none;
+  color: white;
+  padding: 20px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  background: #0055a5;
+}
+
+
+main {
+  padding: 20px;
+  background: white;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-image {
+  width: 33%;
+  height: 350px; /* Maintain aspect ratio */
+  object-fit: cover;
+}
+
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+ 
+form {
+            display: flex;
+            flex-direction: column;
+            width: 100%; /* Full width */
+            max-width: 1000px; /* Limit the max width */
+            padding: 80px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+.contact-container {
+    display: flex;
+    background-color: #eee;
+    padding: 20px;
+    justify-content: center;
+min-height: 100vh; /* Full viewport height */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+ label {
+            margin: 10px 0 5px 0;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 500px;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 15px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+
+footer {
+  background: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+#matchResult {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+
+.main-image {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 20px;
+}
+
+
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00aaee;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a.external-link {
+    display: block;
+    margin: 5px 0;  /* Adds space between the links */
+}
+
+
+.image-container {
+    width: 50%;
+    height: 50%;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Optional: Ensures the image covers the container */
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    display: inline-block;
+}
+
+ .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+
+        .row{
+            margin-bottom: 20 px;
+        }
+
+         .card {
+            border: 2px solid darkblue;
+            border-radius: 15px;
+            width: 18rem; /* Fixed width */
+            height: 25rem; /* Fixed height */
+            overflow: hidden; /* Ensure content doesn't overflow */
+        }
+
+        .card-img-top {
+            width: 100%;
+            height: 50%; /* Adjust height as needed */
+            object-fit: cover; /* Ensure image covers the area */
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 50%;
+        }
+
+        .card-title {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .btn {
+            align-self: center;
+            color: black;
+        }
+
+         .card {
+            margin-bottom: 30px; /* Adjust space as needed */
+        }
